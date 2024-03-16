@@ -112,21 +112,31 @@ form{
 }
 
 form .text-box > input{
+    background-color: #dbe3e7;
+    font-size: 13px;
+    padding: 5px;
     display: flex;
     border-radius: 7px;
     line-height: 1;
     border: 0;
     width: 250px;
-    margin: 10px;
+    margin: 7px;
 }
 
-form .buttons > button{
-    border-color: #000000;
+form .buttons button{
+    background-color: #dbe3e7;
+    font-size: 13px;
     color: #2d2b46cc;
     line-height: 1;
     font-weight: bold;
+    padding: 5px 7px;
     border: 0;
     border-radius: 7px;
     cursor: pointer;
     transition: bakground-color 0.5s, transform 0.5s;
+}
+
+form .buttons button:hover{
+    background-color: #a8dfaf;
+    transform: scale(1.1);
 }
