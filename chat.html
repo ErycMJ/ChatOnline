@@ -11,7 +11,7 @@
 
     <body>
         <main>
-            <div id="page"> 
+            <div id="page" class="page"> 
                 <header>
                     <div class="cabecalho">
                         <h2>Atendimento Online</h2>
@@ -69,7 +69,7 @@
 
                     <div class="buttons">
                         <button type="submit">Enviar</button>
-                        <button type="submit">Home</button>
+                        <button type="submit">Trocar</button>
                     </div>
                 </form>
             </div>
@@ -89,8 +89,6 @@
 
                     enviar.value = '';
                 }
-
-
 
                 const formChat = document.querySelector('#form-chat-send');
                 formChat.addEventListener('submit', enviarMsg);
