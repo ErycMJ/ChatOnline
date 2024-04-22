@@ -1,3 +1,4 @@
+
 html {
     box-sizing: border-box;
     font-size: 15px;
@@ -40,7 +41,7 @@ main{
 }
 
 .cabecalho{
-    background-color: #6b976b;
+    background-color: #3d7080;
     max-width: 35%;
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ main{
 
 .chat{
     background-color: #ccc;
-    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/307/772/desktop-wallpaper-roronoa-zoro-one-piece-zoro-logo-thumbnail.jpg");
+    background-image: url("https://amaluz.com.br/wp-content/uploads/2022/09/planet-wallpaper.webp");
     background-position: 0px -170px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +117,7 @@ main{
 }
 
 form{
-    background-color: #6b976b;
+    background-color: #3d7080;
     max-width: 35%;
     display: flex;
     margin: 0 auto;
